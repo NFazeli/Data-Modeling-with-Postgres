@@ -55,7 +55,7 @@ surounded by the ***dimention tables***:
 
  ***songplay***
 
-  ![Tux, songplay](/images/songplay.PNG)
+  ![Tux, songplay](/images/songplay.png)
 
 ## Conclusion
 
