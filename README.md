@@ -2,7 +2,7 @@
 ## Sparkify data analysis
  *Nastaran Fazeli*
 
-The objective of this project is to build an ETL pipeline using ***Python***, ***PostgresSQL*** . We want to understand what songs users are listening to using an easy way to query the data, which resides in a directory of JSON logs (log_data), as well as a directory with JSON metadata (song_data) on the songs.
+The objective of this project is to build an ETL pipeline using ***Python*** and ***PostgresSQL*** . We want to understand what songs users are listening to using an easy way to query the data, which resides in a directory of JSON logs (log_data), as well as a directory with JSON metadata (song_data) on the songs.
 
 I to created a postgres database schema and an ETL pipeline for this analysis. 
 
@@ -16,7 +16,8 @@ The log files in the dataset were partitioned by year and month. e.g. log_data/2
 
 
 ## Star Scheme
-The image shows the star scheme used to model the Sparkify database in the cente is the ***fact table***:
+The star scheme is a better choice since it simplifies the queries and allows faster aggregation.
+The image shows the star scheme used to model the Sparkify database in the center is the ***fact table***:
 * ***songplay*** - records in log data associated with song plays i.e. records with page NextSong, <br>
 
 surounded by the ***dimention tables***:
