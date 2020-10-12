@@ -91,8 +91,8 @@ def process_log_file(cur, filepath):
 
 def process_data(cur, conn, filepath, func):
     """
-    This function gets all the JASON files from the data source folders
-    and aplies a func to them.
+    This function gets all the JSON files from the data source folders
+    and applies a func to them.
     """
     # get all files matching extension from directory
     all_files = []
